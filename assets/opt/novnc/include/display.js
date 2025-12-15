@@ -30,12 +30,12 @@ var Display;
         this._renderQ = [];  // queue drawing actions for in-oder rendering
 
         // the full frame buffer (logical canvas) size
-        this._fb_width = 0;
-        this._fb_height = 0;
+        this._fb_width = 100;
+        this._fb_height = 100;
 
         // the size limit of the viewport (start disabled)
-        this._maxWidth = 0;
-        this._maxHeight = 0;
+        this._maxWidth = 100;
+        this._maxHeight = 100;
 
         // the visible "physical canvas" viewport
         this._viewportLoc = { 'x': 0, 'y': 0, 'w': 0, 'h': 0 };
